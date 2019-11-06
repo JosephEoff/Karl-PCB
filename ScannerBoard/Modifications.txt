@@ -4,11 +4,11 @@ Make the following modifications:
 
 1.  Do not place R3, R5 and R6
 2.  Replace C16 with a zero ohm jumper
-3.  Replace R2 with a 53 ohm resistor.
+3.  Replace R2 with a 43 ohm resistor.
 
 
 Originally, R2, R3, and C16 were intended to let U6 drive C17 without oscillation.
 
-That didn't work well.  The much simpler option of using U6 as a non-inverting buffer and putting 53 ohms between its output and C17 works much better.  It also forms a low pass filter with a cutoff of around 3.7kHz.  That's fine, because R1 and C14 are a low pass with a cutoff of around 40 Hz.
+That didn't work well.  The much simpler option of using U6 as a non-inverting buffer and putting 43 ohms between its output and C17 works much better.  It also forms a low pass filter with a cutoff of around 3.7kHz.  That's fine, because R1 and C14 are a low pass with a cutoff of around 40 Hz.
 
 I don't remember what R4, R5, and R6 were intended for.  I designed this a couple of years ago, and as far as I can tell never placed R5 and R6 at all.
