@@ -1,0 +1,1 @@
+Should have used a 0603 sized 680pF capacitor with low inductance out to 2.5GHz.  Completely bungled it and used plain 0805 capacitors. 

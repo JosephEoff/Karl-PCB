@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name satscanner-rescue)(type Legacy)(uri ${KIPRJMOD}/satscanner-rescue.lib)(options "")(descr ""))
+  (lib (name Projects)(type Legacy)(uri /home/dev/KiCad/Projects.lib)(options "")(descr ""))
+)
